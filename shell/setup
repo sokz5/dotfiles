@@ -16,8 +16,8 @@ fi
 if [ ! -d ~/dotfiles ]
   then
     cd ~/.ssh
-    ssh-keygen
-    pbcopy < ~/.ssh/id_rsa.pub
+    ssh-keygen -t ed25519 -f ~/.ssh/github
+    pbcopy < ~/.ssh/github.pub
     echo "公開鍵をGitHubに登録しましたか？"
     select yn in "Yes"; do
       case $yn in
