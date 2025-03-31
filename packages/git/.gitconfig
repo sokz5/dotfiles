@@ -1,0 +1,8 @@
+[user]
+	name = So.I
+	email = main@sokz.net
+
+[branch]
+  autosetuprebase = always
+[core]
+	quotepath = false

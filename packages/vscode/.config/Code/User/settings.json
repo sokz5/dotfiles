@@ -1,0 +1,200 @@
+
+{
+  "git.autofetch": true,
+  "files.autoSave": "afterDelay",
+  "files.trimTrailingWhitespace": true,
+  // "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.wordWrap": "off",
+  // "terminal.integrated.automationShell.linux": "",
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": true,
+  "workbench.iconTheme": "vscode-icons",
+  // 最後の行を超えてスクロール
+  "editor.scrollBeyondLastLine": false,
+  // カラーデコレーターを非表示
+  "editor.colorDecorators": false,
+  // ペースト時に自動でフォーマット
+  "editor.formatOnPaste": true,
+  // ファイル保存時に自動でフォーマット
+  "editor.formatOnSave": false,
+  // 入力した行を自動でフォーマット
+  "editor.formatOnType": false,
+  // ホバーしたときに出る解説を消す
+  "editor.hover.enabled": false,
+  // ミニマップの表示文字をブロックに変更
+  "editor.minimap.renderCharacters": false,
+  // 表示領域をミニマップで常にハイライト
+  "editor.minimap.showSlider": "always",
+  // 制御文字を表示
+  "editor.renderControlCharacters": true,
+  // 選択行を行番号含めすべてハイライト
+  "editor.renderLineHighlight": "all",
+  // 半角スペースを常に表示
+  "editor.renderWhitespace": "all",
+  // Emmet などのスニペット候補を
+  "editor.snippetSuggestions": "top",
+  // タブのサイズ変更
+  "editor.tabSize": 2,
+  // エディターの幅で折り返し
+  "editor.wordWrap": "on",
+  // Emmet の候補を表示
+  "emmet.showSuggestionsAsSnippets": true,
+  // TAB キーで Emmet を展開できるようにする
+  "emmet.triggerExpansionOnTab": true,
+  // Emmet で展開される HTML の言語を変更
+  "emmet.variables": {
+    "lang": "ja"
+  },
+  // ファイル削除時の確認を表示しない
+  "explorer.confirmDelete": false,
+  // ファイルと言語の関連付けを変更
+  "files.associations": {
+    ".*lintrc": "json"
+  },
+  // エクスプローラーから非表示にするファイル
+  "files.exclude": {
+    "**/*.map": true
+  },
+  // ファイルの保存時に末尾を改行
+  "files.insertFinalNewline": true,
+  // ファイルの保存時に最終行以降をトリミング
+  "files.trimFinalNewlines": true,
+  // ファイルの保存時に行末の空白をトリミング
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    // Markdown のファイルは行末の空白をトリミングしない
+    "files.trimTrailingWhitespace": false,
+  },
+  "files.encoding": "utf8",
+  // タグ内の記述はフォーマットしない
+  "html.format.contentUnformatted": "pre, code, textarea, title, h1, h2, h3, h4, h5, h6, p",
+  // head, body, /html タグの前に改行を入れない
+  "html.format.extraLiners": "",
+  // フレージング・コンテンツ（旧インライン要素のようなタグ）はフォーマットしない
+  "html.format.unformatted": null,
+  // 行の文字数制限を無くし自動で改行させない
+  "html.format.wrapLineLength": 0,
+  // 検索対象外にするファイル設定（ files.exclude のファイルも含む）
+  "search.exclude": {
+    "**/tmp": true,
+    "**/node_modules": true,
+  },
+  // ウインドウ上部に表示する文字列の設定
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
+  // タブに表示する文字列の設定
+  "workbench.editor.labelFormat": "short",
+  // タブの表示設定
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.startupEditor": "none",
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.sideBar.location": "left",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.fontSize": 14,
+  "sync.gist": "d920035ec25eb19979ae34f90fe995b8",
+  "git.autofetch": true,
+  // phpのバリデート
+  "php.validate.enable": true,
+  "php.validate.executablePath": "",
+  "vim.useSystemClipboard": true,
+  // vimで行頭・行末から横で前後行閉堂
+  "vim.whichwrap": "h,l,<,>,[,]",
+  // "terminal.integrated.fontSize": 14,
+  // "terminal.integrated.fontFamily": "monospace",
+  // 改行時に空行のインデントを保持
+  "editor.trimAutoWhitespace": true,
+  "vetur.validation.template": true,
+  // "terminal.integrated.automationShell.linux": "",
+  // "terminal.integrated.profiles.windows": {
+  //     "Git Bash": {
+  //         "source": "Git Bash"
+  //     }
+  // },
+  "workbench.colorCustomizations": {
+    "terminal.foreground": "#bbbbbb",
+    "terminal.ansiBlack": "#4f4f4f",
+    "terminal.ansiBlue": "#96cbfe",
+    "terminal.ansiCyan": "#c6c5fe",
+    "terminal.ansiGreen": "#a8ff60",
+    "terminal.ansiMagenta": "#ff73fd",
+    "terminal.ansiRed": "#ff6c60",
+    "terminal.ansiWhite": "#eeeeee",
+    "terminal.ansiYellow": "#ffffb6",
+    "terminal.ansiBrightBlack": "#7c7c7c",
+    "terminal.ansiBrightBlue": "#b5dcff",
+    "terminal.ansiBrightCyan": "#dfdffe",
+    "terminal.ansiBrightGreen": "#ceffac",
+    "terminal.ansiBrightMagenta": "#ff9cfe",
+    "terminal.ansiBrightRed": "#ffb6b0",
+    "terminal.ansiBrightWhite": "#ffffff",
+    "terminal.ansiBrightYellow": "#ffffcc",
+    "terminal.selectionBackground": "#363983",
+    "terminalCursor.foreground": "#ffa560",
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f"
+  },
+  "terminal.integrated.tabs.title": "${process} - ${workspaceFolder}",
+  // "terminal.integrated.defaultProfile.osx": "zsh",
+  // "terminal.integrated.allowChords": false,
+  // "terminal.integrated.drawBoldTextInBrightColors": false,
+  // "terminal.integrated.experimentalLinkProvider": false,
+  // "terminal.integrated.rendererType": "auto",
+  "redhat.telemetry.enabled": true,
+  "json.maxItemsComputed": 100000,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.guides.indentation": false,
+  "blockman.n01LineHeight": 0,
+  "diffEditor.wordWrap": "off",
+  // "editor.inlayHints.enabled": false,
+  // "editor.language.brackets": [
+  // ],
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "terminal.external.osxExec": "iTerm2.app",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "githubPullRequests.pullBranch": "never",
+  "git.confirmSync": false,
+  "editor.rename.enablePreview": false,
+  "git.enableSmartCommit": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.limit.enabled": true,
+  "window.newWindowDimensions": "inherit",
+  "window.openFoldersInNewWindow": "on",
+  "[css]": {
+    "editor.defaultFormatter": null
+  },
+  "npm.keybindingsChangedWarningShown": true,
+  "githubPullRequests.createOnPublishBranch": "never",
+  "cSpell.userWords": [
+    "luxon"
+  ],
+  "path-intellisense.mappings": {},
+  "js/ts.implicitProjectConfig.strictNullChecks": false,
+  "js/ts.implicitProjectConfig.strictFunctionTypes": false,
+  "js/ts.implicitProjectConfig.target": "ES2016",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "runOnSave.commands": [],
+  "files.autoSaveDelay": 0,
+  "workbench.colorTheme": "Default Dark+",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "workbench.editorAssociations": {
+    "*.xlsx": "default"
+  },
+  "terminal.integrated.tabs.location": "left",
+  "terminal.integrated.tabs.enabled": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "liveServer.settings.useLocalIp": true,
+  "explorer.confirmDragAndDrop": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "update.mode": "none",
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.indentSize": "tabSize",
+}
